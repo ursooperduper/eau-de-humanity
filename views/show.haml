@@ -1,0 +1,16 @@
+%h1= @title
+
+%p= @card.id
+%p= @card.cardtext
+%p= @card.color
+%p= @card.set
+%p= @card.tags
+%p= @card.draw
+%p= @card.pick
+%p= @card.created_at
+%p= @card.updated_at
+
+-if @card.color == 'b'
+	#playingcard-bl= @card.cardtext
+-else
+	#playingcard-wh= @card.cardtext

@@ -1,0 +1,31 @@
+/* eau-de.scss */
+
+#playingcard-bl {
+	width: 200px;
+	height: 350px;
+	background-color: #000;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+	color: #fff;
+	padding: 30px;
+	border: 1px solid #000;
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+}
+
+#playingcard-wh {
+	width: 200px;
+	height: 350px;
+	background-color: #fff;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2em;
+	line-height: 140%;
+	color: #000;
+	padding: 30px;
+	border: 1px solid #000;
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-border-radius: 16px;
+}

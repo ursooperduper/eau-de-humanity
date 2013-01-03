@@ -1,0 +1,20 @@
+%h1= @title
+
+%table
+	-@cards.each_with_index do |card|
+		%tr
+			%td= card.id
+			%td= card.cardtext
+			%td= card.color
+			%td= card.set
+			%td= card.tags
+			%td= card.draw
+			%td= card.pick
+			%td= card.created_at
+			%td= card.updated_at
+			%td 
+				%a{ href: "/show/#{card.id}"}
+					ID
+			%td
+				%a{ href: "/delete/#{card.id}"}
+					Delete
