@@ -10,11 +10,12 @@
 			%td= card.tags
 			%td= card.draw
 			%td= card.pick
-			%td= card.created_at
-			%td= card.updated_at
 			%td 
-				%a{ href: "/show/#{card.id}"}
+				%a{ href: "/show/#{card.id}" }
 					ID
 			%td
-				%a{ href: "/delete/#{card.id}"}
+				%a{ href: "/edit/#{card.id}" }
+					Edit
+			%td
+				%a{ href: "/delete/#{card.id}" }
 					Delete

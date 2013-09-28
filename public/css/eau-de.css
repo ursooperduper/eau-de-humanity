@@ -1,28 +1,139 @@
 /* eau-de.scss */
-#playingcard-bl {
-  width: 200px;
-  height: 350px;
-  background-color: #000;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.2em;
-  line-height: 140%;
-  color: #fff;
-  padding: 30px;
-  border: 1px solid black;
-  border-radius: 16px;
-  -moz-border-radius: 16px;
-  -webkit-border-radius: 16px; }
+* {
+  margin: 0; }
 
-#playingcard-wh {
-  width: 200px;
-  height: 350px;
-  background-color: #fff;
-  font-family: Helvetica, sans-serif;
-  font-size: 1.2em;
-  line-height: 140%;
-  color: #000;
-  padding: 30px;
-  border: 1px solid black;
-  border-radius: 16px;
-  -moz-border-radius: 16px;
-  -webkit-border-radius: 16px; }
+html, body {
+  height: 100%; }
+
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: left; }
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  height: auto;
+  margin: auto; }
+
+p, table, tr, td, h1 {
+  font-size: 1em;
+  font-family: Helvetica, sans-serif; }
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 2em;
+    font-weight: bold; }
+
+  .bcard-side {
+    height: 520px;
+    width: 320px;
+    background-color: #fff; }
+
+  .wcard-side {
+    height: auto;
+    width: 320px;
+    background-color: #000;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  #title-block {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  .playingcard-bl {
+    width: 200px;
+    height: 350px;
+    background-color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .playingcard-wh {
+    width: 200px;
+    height: 350px;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: #000;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-bottom: 30px; } }
+@media screen and (min-width: 321px) {
+  h1 {
+    font-size: 3em;
+    font-weight: bold; }
+
+  .bcard-side {
+    position: absolute;
+    height: 100%;
+    width: 320px;
+    float: left;
+    background-color: #fff; }
+
+  .wcard-side {
+    margin-left: 320px;
+    position: absolute;
+    padding-top: 150px;
+    padding-left: 30px;
+    height: auto;
+    min-width: 250px;
+    width: 69%;
+    float: left;
+    background-color: #000; }
+
+  #title-block {
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+
+  .playingcard-bl {
+    width: 200px;
+    height: 350px;
+    background-color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .playingcard-wh {
+    width: 200px;
+    height: 350px;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2em;
+    line-height: 140%;
+    color: #000;
+    padding: 30px;
+    border: 1px solid #000;
+    border-radius: 16px;
+    -moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+    margin-left: auto;
+    margin-right: 30px;
+    float: left; } }

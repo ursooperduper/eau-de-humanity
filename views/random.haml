@@ -1,0 +1,8 @@
+.bcard-side
+  #title-block
+    %h1= @title
+  .playingcard-bl= @b_card.cardtext
+
+.wcard-side
+  -@wh_playcards.each do |wc|
+    .playingcard-wh= wc.cardtext
