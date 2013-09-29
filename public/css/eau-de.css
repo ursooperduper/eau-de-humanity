@@ -17,11 +17,15 @@ body {
   position: relative;
   min-height: 100%;
   height: auto;
-  margin: auto; }
+  margin: auto;
+  padding-bottom: 50px; }
 
 p, table, tr, td, h1 {
   font-size: 1em;
   font-family: Helvetica, sans-serif; }
+
+a {
+  color: #777; }
 
 @media screen and (max-width: 320px) {
   h1 {
@@ -76,7 +80,17 @@ p, table, tr, td, h1 {
     -webkit-border-radius: 16px;
     margin-left: auto;
     margin-right: 30px;
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  #cag {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    clear: both;
+    width: 100%;
+    color: #fff;
+    font-weight: 200;
+    font-size: .7em; } }
 @media screen and (min-width: 321px) {
   h1 {
     font-size: 3em;
@@ -136,4 +150,16 @@ p, table, tr, td, h1 {
     -webkit-border-radius: 16px;
     margin-left: auto;
     margin-right: 30px;
-    float: left; } }
+    float: left; }
+
+  #cag {
+    position: fixed;
+    margin-top: -50px;
+    height: 50px;
+    clear: both;
+    bottom: 0px;
+    width: 100%;
+    padding-left: 340px;
+    color: #fff;
+    font-weight: 200;
+    font-size: .7em; } }
