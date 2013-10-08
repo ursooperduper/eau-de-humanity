@@ -2,35 +2,36 @@
 
 %form{ action: "/create", method: "post", id: "card" }
 
-	%p
-		%label Card Text
-		%br
-		%input{ type: "text", name: "card[cardtext]", id: "cardtext" }
+	.admin-form
+		%p
+			%label Card Text
+			%br
+			%input{ type: "text", name: "card[cardtext]", id: "cardtext" }
 
-	%p
-		%label Color
-		%br
-		%input{ type: "text", name: "card[color]", id: "color" }
+		%p
+			%label Color
+			%br
+			%input{ type: "text", name: "card[color]", id: "color" }
 
-	%p
-		%label Set
-		%br
-		%input{ type: "text", name: "card[set]", id: "set" }
+		%p
+			%label Set
+			%br
+			%input{ type: "text", name: "card[set]", id: "set" }
 
-	%p
-		%label Tags
-		%br
-		%input{ type: "text", name: "card[tags]", id: "tags" }
+		%p
+			%label Tags
+			%br
+			%input{ type: "text", name: "card[tags]", id: "tags" }
 
-	%p
-		%label Draw
-		%br
-		%input{ type: "text", name: "card[draw]", id: "draw" }
+		%p
+			%label Draw
+			%br
+			%input{ type: "text", name: "card[draw]", id: "draw" }
 
-	%p
-		%label Pick
-		%br
-		%input{ type: "text", name: "card[pick]", id: "pick" }
+		%p
+			%label Pick
+			%br
+			%input{ type: "text", name: "card[pick]", id: "pick" }
 
-	%p
-		%input{ type: "submit" }
+		%p
+			%input{ type: "submit", class: "btn" }
