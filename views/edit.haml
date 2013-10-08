@@ -4,35 +4,37 @@
 	
 	%input{ type: "hidden", name: "card[id]", id: "id", value: "#{@card.id}" }
 
-	%p
-		%label Card Text
-		%br
-		%input{ type: "text", name: "card[cardtext]", id: "cardtext", value: "#{@card.cardtext}" }
+	.admin-form
 
-	%p
-		%label Color
-		%br
-		%input{ type: "text", name: "card[color]", id: "color", value: "#{@card.color}" }
+		%p
+			%label Card Text
+			%br
+			%input{ type: "text", name: "card[cardtext]", id: "cardtext", value: "#{@card.cardtext}" }
 
-	%p
-		%label Set
-		%br
-		%input{ type: "text", name: "card[set]", id: "set", value: "#{@card.set}" }
+		%p
+			%label Color
+			%br
+			%input{ type: "text", name: "card[color]", id: "color", value: "#{@card.color}" }
 
-	%p
-		%label Tags
-		%br
-		%input{ type: "text", name: "card[tags]", id: "tags", value: "#{@card.tags}" }
+		%p
+			%label Set
+			%br
+			%input{ type: "text", name: "card[set]", id: "set", value: "#{@card.set}" }
 
-	%p
-		%label Draw
-		%br
-		%input{ type: "text", name: "card[draw]", id: "draw", value: "#{@card.draw}" }
+		%p
+			%label Tags
+			%br
+			%input{ type: "text", name: "card[tags]", id: "tags", value: "#{@card.tags}" }
 
-	%p
-		%label Pick
-		%br
-		%input{ type: "text", name: "card[pick]", id: "pick", value: "#{@card.pick}" }
+		%p
+			%label Draw
+			%br
+			%input{ type: "text", name: "card[draw]", id: "draw", value: "#{@card.draw}" }
 
-	%p
-		%input{ type: "submit" }
+		%p
+			%label Pick
+			%br
+			%input{ type: "text", name: "card[pick]", id: "pick", value: "#{@card.pick}" }
+
+		%p
+			%input{ type: "submit", class: "btn" }
