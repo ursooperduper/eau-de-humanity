@@ -11,12 +11,10 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
+.sass-cache/
+vendor/
 
 # YARD artifacts
 .yardoc
 _yardoc
 doc/
-
-*.lock
-.sass-cache/
-vendor/
